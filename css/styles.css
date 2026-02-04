@@ -1,0 +1,12 @@
+/*Responsive adjustments for smaller screens (I use AI here)*/
+@media (max-width: 480px) {
+  section {
+    padding: 40px 10px;
+  }
+
+  #skills ul {
+    gap: 15px;
+  }
+}
+html { scroll-behavior: smooth; } 
+/* Smooth scrolling for anchor links (I use AI here) */
