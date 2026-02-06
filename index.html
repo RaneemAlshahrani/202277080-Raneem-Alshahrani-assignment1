@@ -1,39 +1,72 @@
-<!--here i should write a code for my portfolio website-->
 <!DOCTYPE html>
 <html lang="en">    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--this is for compatibility with older versions of Internet Explorer (I use AI here)-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this makes the website responsive (I use AI here)-->
-    <title>My Portfolio</title>
+    <title>Raneem Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>  
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">
+        🌙
+      </button>
+
+      <button id="fontToggle" class="icon-btn" type="button" aria-label="Toggle font size">
+        A+
+      </button>
+
+      <button id="menuToggle" class="icon-btn menu-btn" type="button"
+              aria-label="Open menu" aria-controls="menu" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+
+    <!-- Desktop links -->
+    <ul class="nav-links" id="desktopLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Mobile menu panel -->
+    <div class="mobile-menu hidden" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="mobile-menu__header">
+        <span class="mobile-menu__title"></span>
+        <button id="closeMenu" class="icon-btn" type="button" aria-label="Close menu">✖</button>
+      </div>
+
+      <ul class="mobile-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Backdrop for mobile menu -->
+    <div class="backdrop hidden" id="backdrop" aria-hidden="true"></div>
+  </nav>
+</header>
 
     <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>
-        Software Engineering student at KFUPM interested in building 
-        reliable software systems and applying data and AI techniques 
-        to real-world problems.
-        </p>
-
+        <img src="assets/images/girl-photo.png" alt="Profile Picture" height="200" width="200" class="profile-pic">
+         <h1 class="hero-title">Hello, I'm <span class="hero-name">Raneem Alshahrani</span></h1>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I enjoy working on software projects that require clear problem
+        <h2 class="About-me">About Me</h2>
+        <p>A software Engineering student at KFUPM interested in building 
+        reliable software systems and applying data and AI techniques 
+        to real-world problems. I enjoy working on software projects that require clear problem
         analysis, structured design, and careful implementation. Through my
         academic projects, I have gained experience in requirements engineering,
         database design, and building systems that balance functionality, 
@@ -47,55 +80,97 @@
         <h2>Projects</h2>
         <div class="project">
             <h3>Horse Racing System</h3>
-            <p>-Developed a database-driven application using JavaFX and MySQL.
-                - Implemented SQL queries, stored procedures, and triggers to maintain data integrity.
-                - Tested database constraints and application logic.</p>
+            <p>
+            - Developed a database-driven application using JavaFX and MySQL, implementing complex SQL queries and stored procedures.<br> 
+            - Ensured data integrity by testing database constraints and validating application logic.
+            </p>
         </div>
         <div class="project">
             <h3>KFUPM Student Impact Hub</h3>
-            <p>-Developed a complete requirements engineering document including stakeholder analysis, functional and non-functional requirements, and use-case modeling.
-            - Designed interactive UI/UX prototypes using Figma and validated system workflows.
-            - Defined access control, security requirements, and system constraints.
-        </p>
+            <p>
+            - Produced a complete requirements engineering document with stakeholder analysis, use-case modeling, and system constraints.<br> 
+            - Designed and validated interactive UI/UX prototypes in Figma to support secure and well-defined workflows.
+            </p>
         </div>        
         <div class="project">
             <h3>Data Analysis & AI Project</h3>
-            <p>- Applied data preprocessing, analysis, and different AI models using Python.
-            - Evaluated model performance and documented analytical results.</p>
+            <p>
+            - Applied data preprocessing and multiple AI models using Python to analyze real-world datasets.<br> 
+            - Evaluated model performance and documented insights based on analytical results.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Club Zone - Software Requirements Specification</h3>
+            <p>
+            - Authored a comprehensive SRS for a student club management platform covering functional and non-functional requirements.<br>
+            - Modeled key workflows including registration, membership management, and event organization.
+            </p>
+
         </div>
     </section>
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><img src="assets/images/html.png" alt="HTML Icon" height="50" width="50"></li>
-            <li><img src="assets/images/css.png" alt="CSS Icon" height="50" width="50"></li>
-            <li><img src="assets/images/javascript.png" alt="JavaScript Icon" height="50" width="50"></li>
-            <li><img src="assets/images/python.png" alt="Python Icon" height="50" width="50"></li>
-            <li><img src="assets/images/java.png" alt="Java Icon" height="50" width="50"></li>
-            <li><img src="assets/images/figma-dark.png" alt="Figma Icon" height="50" width="50"></li>
+    <h2 class="skills-title">Skills</h2>
+
+    <div class="skills-group">
+        <h3>Front-end</h3>
+        <ul class="skills-row">
+        <li><img src="assets/images/html.png" alt="HTML"></li>
+        <li><img src="assets/images/css.png" alt="CSS"></li>
+        <li><img src="assets/images/javascript.png" alt="JavaScript"></li>
         </ul>
+    </div>
+
+    <div class="skills-group">
+        <h3>Back-end</h3>
+        <ul class="skills-row">
+        <li><img src="assets/images/python.png" alt="Python"></li>
+        <li><img src="assets/images/java.png" alt="Java"></li>
+        </ul>
+    </div>
+
+    <div class="skills-group">
+        <h3>Databases</h3>
+        <ul class="skills-row">
+        <li><img src="assets/images/mysql.png" alt="MySQL"></li>
+        </ul>
+    </div>
+
+    <div class="skills-group">
+        <h3>Tools</h3>
+        <ul class="skills-row">
+        <li><img src="assets/images/git.png" alt="Git"></li>
+        <li><img src="assets/images/github.png" alt="GitHub" class="dark-invert"></li>
+        <li><img src="assets/images/figma-dark.png" alt="Figma"></li>
+        </ul>
+    </div>
     </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <form action="#" method="post">
+        <form action="mailto:s202277080@kfupm.edu.sa" method="post" enctype="text/plain">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
             <input type="submit" value="Send">
         </form>
     </section>  
     <footer>
-        <ul>
-            <li><a href="mailto:raneemal14251026@gmail.com"><img src="assets/images/email.png" alt="Email Icon" height="50" width="50"></a></li>
-            <li><a href="https://www.linkedin.com/in/raneem-alshahrani"><img src="assets/images/linkedin.png" alt="LinkedIn Icon" height="50" width="50"></a></li>
-            <li><a href="https://github.com/RaneemAlshahrani"><img src="assets/images/github.png" alt="GitHub Icon" height="50" width="50"></a></li>
+        <ul class="social-icons">
+            <li><a href="mailto:raneemal14251026@gmail.com"><img src="assets/images/email.png" alt="Email Icon" height="50" width="50" class="icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/raneem-alshahrani"><img src="assets/images/linkedin.png" alt="LinkedIn Icon" height="50" width="50" class="icon"></a></li>
+            <li><a href="https://github.com/RaneemAlshahrani"><img src="assets/images/github.png" alt="GitHub Icon" height="50" width="50" class="icon"></a></li>
         </ul>
         <p>&copy; 2026 My Portfolio. All rights reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
