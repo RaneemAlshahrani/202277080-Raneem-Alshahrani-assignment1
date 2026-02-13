@@ -77,7 +77,7 @@ No data is transmitted to external services.
 2. Ensure all project folders remain in the same directory structure.
 
 ```
-assignment-1/
+202277080-Raneem-Alshahrani-assignment1/
 ├── README.md
 ├── index.html
 ├── css/
