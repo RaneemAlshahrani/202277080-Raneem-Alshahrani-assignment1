@@ -2,7 +2,6 @@
 This project is a personal portfolio website built using HTML, CSS, and JavaScript to showcase my background, projects, and skills in a clear and organized way. I designed and structured the website to reflect my work and present it professionally. AI tools were used strategically during development for minor suggestions, debugging support, and refining certain parts, while the overall concept, design, and content were developed independently by me.
 
 # Project Structure
-
 ```
 202277080-Raneem-Alshahrani-assignment1/
 ├── README.md

@@ -1,4 +1,3 @@
-
 # AI Usage Report
 
 ## Overview
@@ -63,14 +62,13 @@ document.querySelectorAll(".hidden").forEach(el => {
 This reduced unnecessary computations and improved performance.
 
 ## Learning Outcomes
-**CSS Concepts Learned**:
 
+**CSS Concepts Learned**:
 - Using CSS custom properties for theming
 - Applying Flexbox and Grid effectively
 - Improving accessibility with proper contrast and reduced-motion support
 
 **JavaScript Concepts Learned**:
-
 - DOM manipulation and event handling
 - Using `localStorage` for persistence
 - Applying `matchMedia` and `IntersectionObserver` for dynamic behavior
@@ -93,7 +91,6 @@ This reduced unnecessary computations and improved performance.
   * Benefit: Stable, predictable responsive navigation.
 
 ## Responsible Use & Modifications
-
 - All AI-generated code was reviewed and rewritten where necessary.
 - Suggestions were validated using MDN documentation and manual testing.
 - Code was refactored to maintain originality and project consistency.
