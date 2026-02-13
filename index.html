@@ -2,25 +2,29 @@
 <html lang="en">    
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--this is for compatibility with older versions of Internet Explorer (I use AI here)-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this makes the website responsive (I use AI here)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--this is for compatibility with older versions of Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this makes the website responsive -->
     <title>Raneem Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>  
     <header class="site-header">
+    <!-- Main navigation section for the website -->
     <nav class="nav" aria-label="Primary">
 
     <div class="nav-actions">
+      <!-- Theme toggle button with moon icon -->
       <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">
         🌙
       </button>
 
+      <!-- Font size toggle button with "A+" label -->
       <button id="fontToggle" class="icon-btn" type="button" aria-label="Toggle font size">
         A+
       </button>
 
+      <!-- Mobile menu toggle button with hamburger icon -->
       <button id="menuToggle" class="icon-btn menu-btn" type="button"
               aria-label="Open menu" aria-controls="menu" aria-expanded="false">
         ☰
@@ -52,12 +56,13 @@
       </ul>
     </div>
 
-    <!-- Backdrop for mobile menu -->
+    <!-- Background overlay displayed when mobile menu is active -->
     <div class="backdrop hidden" id="backdrop" aria-hidden="true"></div>
   </nav>
 </header>
 
     <section id="home">
+        <!-- Fixed dimensions prevent layout shift during page load -->
         <img src="assets/images/girl-photo.png" alt="Profile Picture" height="200" width="200" class="profile-pic">
          <h1 class="hero-title">Hello, I'm <span class="hero-name">Raneem Alshahrani</span></h1>
          <p style="font-size: x-large;">Software Engineering Student | Aspiring Software Developer</p>
@@ -148,6 +153,7 @@
 
     <section id="contact">
         <h2>Contact Me</h2>
+        <!-- Contact form sends user input via default mail client -->
         <form action="mailto:s202277080@kfupm.edu.sa" method="post" enctype="text/plain">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
@@ -172,6 +178,7 @@
         </ul>
         <p>&copy; 2026 Raneem Alshahrani. All rights reserved.</p>
     </footer>
+    <!-- Handles theme toggle, font size adjustment, and mobile menu behavior -->
     <script src="js/script.js"></script>
 </body>
 </html>
