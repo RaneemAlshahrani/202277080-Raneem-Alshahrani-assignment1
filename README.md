@@ -4,7 +4,7 @@ This project is a personal portfolio website built using HTML, CSS, and JavaScri
 # Project Structure
 
 ```
-assignment-1/
+202277080-Raneem-Alshahrani-assignment1/
 ├── README.md
 ├── index.html
 ├── css/

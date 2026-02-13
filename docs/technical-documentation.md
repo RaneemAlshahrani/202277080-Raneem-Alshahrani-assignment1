@@ -25,7 +25,7 @@ The system follows a static front-end architecture composed of:
 ### Folder Structure
 
 ```
-assignment-1/
+202277080-Raneem-Alshahrani-assignment1/
 ├── README.md
 ├── index.html
 ├── css/
