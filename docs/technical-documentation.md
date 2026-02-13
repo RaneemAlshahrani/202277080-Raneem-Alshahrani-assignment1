@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project is a responsive personal portfolio website developed to showcase academic background, technical skills, and projects. The purpose of the system is to provide a clean, accessible, and modern web interface that adapts to different devices, supports light/dark mode, and demonstrates front-end development best practices.
+This project is a front-end personal portfolio website developed to present academic background, technical skills, and completed projects in a structured and accessible format. The system is designed as a static web application and focuses on usability, clarity, and organized content presentation.
+
+The website runs entirely on the client side and does not require backend services or database integration.
 
 ### Scope
 
@@ -20,20 +22,47 @@ The system follows a static front-end architecture composed of:
 * **CSS**: Layout, theming (light/dark mode), animations, and responsiveness
 * **JavaScript**: UI interactivity and state management
 
+### Folder Structure
+
+```
+assignment-1/
+├── README.md
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+└── .gitignore
+
+```
+This structure separates content, styling, logic, and documentation for better maintainability.
+
 ### Main Components
 
-* Header & Navigation Bar
+* Navigation Bar
 * Hero Section
+* About Section
 * Projects Section
 * Skills Section
 * Contact Form
 * Footer
 
-### Data Flow
+Each section is implemented using semantic HTML elements for readability and structured layout.
 
-* User interactions (clicks, scrolls) trigger JavaScript events
-* UI state (theme, font size) is stored in `localStorage`
-* No external APIs or backend communication
+### User Interaction Flow
+
+* User actions (clicks, toggles, navigation) trigger JavaScript event listeners
+
+* Interface preferences (such as theme or font size) are saved using `localStorage`
+
+* The system updates the UI dynamically without page reload
+
+No data is transmitted to external services.
 
 ## Installation
 
@@ -44,8 +73,8 @@ The system follows a static front-end architecture composed of:
 
 ### Setup Instructions
 
-1. Download or clone the project files
-2. Ensure the following folder structure:
+1. Download or clone the repository.
+2. Ensure all project folders remain in the same directory structure.
 
 ```
 assignment-1/
@@ -65,7 +94,9 @@ assignment-1/
 ```
 
 3. Open `index.html` directly in a browser **or**
-4. Run Live Server in VS Code for automatic reload
+4. Use the Live Server extension in VS Code for local development.
+
+No additional configuration is required.
 
 ## Configuration
 
@@ -90,10 +121,6 @@ assignment-1/
 * **Changing Theme**: Click the moon/sun icon
 * **Mobile Navigation**: Click ☰ on mobile view
 * **Contacting**: Fill out the contact form to send an email
-
-### Command-Line Usage
-
-Not applicable — this is a client-side web application.
 
 ## API Reference
 
@@ -133,7 +160,7 @@ This project is currently a personal academic portfolio and not open for externa
 ## References
 
 * zybook of the course
-* w3schools Web Docs – HTML, CSS, JavaScript
+* w3schools Web
 * YouTube video
 
 ## Conclusion

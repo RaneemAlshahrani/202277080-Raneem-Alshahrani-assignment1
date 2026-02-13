@@ -1,26 +1,40 @@
-# My Portfolio
+# Project description
+This project is a personal portfolio website built using HTML, CSS, and JavaScript to showcase my background, projects, and skills in a clear and organized way. I designed and structured the website to reflect my work and present it professionally. AI tools were used strategically during development for minor suggestions, debugging support, and refining certain parts, while the overall concept, design, and content were developed independently by me.
 
-Welcome to my portfolio! This collection showcases my projects, skills, and experience in software development.
+# Project Structure
 
+```
+assignment-1/
+├── README.md
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+└── .gitignore
 
-## About Me
+```
 
-I'm a passionate developer interested in building scalable applications and solving complex problems through code.
+# Setup instructions
+1- Install Visual Studio Code (if not already installed).
+2- Open Visual Studio Code.
+3- Click “Clone Repository” on the start screen.
+4- Paste the repository URL:
+```bash
+https://github.com/RaneemAlshahrani/202277080-Raneem-Alshahrani-assignment1.git
+```
+5- Choose a folder on your computer to save the project.
+6- When prompted, click “Trust the Authors”.
+7- Open the index.html file.
+8- open it in your browser (run → run without depugging), or install the Live Server extension in VS Code and click “Go Live.”
 
-
-## Projects
-
-- [Horse Racing System](https://github.com/RaneemAlshahrani/Horse-Racing-System.git) - Developed a database-driven JavaFX and MySQL application with validated constraints to ensure data integrity.
-- [KFUPM Student Impact Hub](https://github.com/RaneemAlshahrani/KFUPM-Student-Impact-Hub.git) - Created a complete requirements engineering document and validated system workflows through UI/UX prototypes.
-- [Data Analysis & AI Project](https://github.com/RaneemAlshahrani/Data-Analysis-AI-Project.git) - Applied data preprocessing and AI models in Python to analyze datasets and evaluate performance.
-- [Club Zone - Software Requirements Specification](https://github.com/RaneemAlshahrani/Club-Zone---Software-Requirements-Specification.git) - Authored a comprehensive SRS defining system requirements and core workflows for a student club platform.
-
-## Skills
-
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python, Java
-- Databases: MySQL
-- Tools: Git, Github, Figma
+# Short summary of AI use
+AI tools were used during development to assist with small improvements, debugging minor issues, and refining certain sections of the code. The overall structure, layout, design decisions, and content of the website were created independently by me. A detailed explanation of AI usage is provided in `ai-usage-report.md`.
 
 ## Contact
 

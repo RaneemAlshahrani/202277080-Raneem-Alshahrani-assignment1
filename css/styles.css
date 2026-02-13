@@ -98,7 +98,7 @@ body.menu-open{overflow:hidden}
   :root:not([data-theme]) footer img.icon{filter:invert(1)}}
 
 /* ===== Footer ===== */
-footer{border-top:1px solid var(--border);padding:28px 18px 34px;max-width:980px;margin:40px auto 30px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;z-index:10;position:relative}
+footer{border-top:1px solid var(--border);padding:18px;max-width:980px;margin:40px auto 30px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;z-index:10;position:relative}
 footer ul{display:flex;justify-content:center;align-items:center;gap:18px}
 footer img.icon{width:48px;height:48px;opacity:.9;transition:filter .2s ease,opacity .2s ease}
 footer img.icon:hover{opacity:1}
