@@ -1,4 +1,3 @@
-
 # AI Usage Report
 
 ## Overview
@@ -109,4 +108,4 @@ AI was used creatively to improve both functionality and accessibility. Examples
 Rather than replacing development effort, AI served as an intelligent assistant that enhanced learning and problem-solving.
 
 ## Conclusion
-AI tools supported debugging, optimization, and conceptual understanding throughout the project. Their integration improved development efficiency while preserving originality and design ownership.
+AI tools significantly enhanced my learning and development process by providing real-time feedback, debugging assistance, and guidance on best practices. Instead of replacing learning, AI supported deeper understanding of front-end development concepts and enabled me to build a more polished, accessible, and maintainable portfolio website.
