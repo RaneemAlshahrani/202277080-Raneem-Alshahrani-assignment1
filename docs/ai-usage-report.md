@@ -1,17 +1,16 @@
-
 # AI Usage Report
 
 ## Overview
 This report documents how AI tools were used during the development of the personal portfolio website. AI was used as a support tool for debugging, optimization, UI improvements, and learning modern front-end techniques. All AI suggestions were reviewed, modified when necessary, and tested before being integrated into the final implementation.
 
 ## AI Tools Used
-- **ChatGPT**:
+**ChatGPT**:
 * Debugging layout and JavaScript issues
 * Designing dark/light theme behavior
 * Implementing mobile navigation logic
 * Explaining modern browser APIs
 
-- **Claude AI**:
+**Claude AI**:
 * Reviewing CSS structure
 * Identifying redundant rules
 * Suggesting performance and accessibility improvements
@@ -63,13 +62,13 @@ document.querySelectorAll(".hidden").forEach(el => {
 This reduced unnecessary computations and improved performance.
 
 ## Learning Outcomes
-- **CSS Concepts Learned**:
+**CSS Concepts Learned**:
 
 - Using CSS custom properties for theming
 - Applying Flexbox and Grid effectively
 - Improving accessibility with proper contrast and reduced-motion support
 
-- **JavaScript Concepts Learned**:
+**JavaScript Concepts Learned**:
 
 - DOM manipulation and event handling
 - Using `localStorage` for persistence
@@ -77,20 +76,20 @@ This reduced unnecessary computations and improved performance.
 
 ## Benefits & Challenges
 - **Benefits**
-- Reduced debugging time by quickly identifying CSS conflicts and missing event logic.
-- Improved code quality through refactoring and removal of redundant styles.
+  * Reduced debugging time by quickly identifying CSS conflicts and missing event logic.
+  * Improved code quality through refactoring and removal of redundant styles.
 
 - **Challenge 1**: Dark Icons Invisible in Dark Mode
-- Problem: Icons became invisible on dark backgrounds.
-- AI Role: Suggested using a reusable `.dark-invert` CSS filter instead of duplicating assets.
-- Action Taken: Applied the filter conditionally in dark mode and tested contrast.
-- Benefit: Cleaner asset management and improved maintainability.
+  * Problem: Icons became invisible on dark backgrounds.
+  * AI Role: Suggested using a reusable `.dark-invert` CSS filter instead of duplicating assets.
+  * Action Taken: Applied the filter conditionally in dark mode and tested contrast.
+  * Benefit: Cleaner asset management and improved maintainability.
 
 - **Challenge 2**: Mobile Menu Not Closing Properly
-- Problem: Menu remained open or conflicted with desktop layout.
-- AI Role: Identified duplicated CSS and incomplete toggle logic.
-- Action Taken: Consolidated styles and implemented a single JavaScript toggle state.
-- Benefit: Stable, predictable responsive navigation.
+  * Problem: Menu remained open or conflicted with desktop layout.
+  * AI Role: Identified duplicated CSS and incomplete toggle logic.
+  * Action Taken: Consolidated styles and implemented a single JavaScript toggle state.
+  * Benefit: Stable, predictable responsive navigation.
 
 ## Responsible Use & Modifications
 
